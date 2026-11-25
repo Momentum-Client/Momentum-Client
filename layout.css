@@ -1,0 +1,42 @@
+/* Explain: Layout utilities for airy one-page studio sections. */
+.section-pad {
+    padding-top: clamp(4.5rem, 9vw, 7.5rem);
+    padding-bottom: clamp(4.5rem, 9vw, 7.5rem);
+}
+
+.hero-split {
+    background:
+        radial-gradient(circle at 80% 12%, rgba(167, 139, 250, 0.24), transparent 28rem),
+        linear-gradient(150deg, rgba(0, 0, 0, 0.97) 0%, rgba(22, 10, 42, 0.9) 55%, rgba(124, 58, 237, 0.26) 100%);
+}
+
+.orb {
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(60px);
+    opacity: 0.5;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.orb-violet {
+    width: 24rem;
+    height: 24rem;
+    right: 4%;
+    top: 6%;
+    background: rgba(139, 92, 246, 0.45);
+}
+
+.orb-fuchsia {
+    width: 18rem;
+    height: 18rem;
+    left: 2%;
+    bottom: 4%;
+    background: rgba(192, 132, 252, 0.35);
+}
+
+.contact-section {
+    background:
+        radial-gradient(circle at 6% 14%, rgba(167, 139, 250, 0.2), transparent 26rem),
+        linear-gradient(180deg, var(--background-color), var(--surface-color));
+}

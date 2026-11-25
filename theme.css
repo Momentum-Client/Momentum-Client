@@ -1,0 +1,25 @@
+/* Explain: Theme tokens for the serene luxury yoga studio identity. */
+:root {
+    --primary-color: #7c3aed;
+    --primary-hover: #8b5cf6;
+    --accent-color: #d8b4fe;
+    --secondary-color: #4c1d95;
+    --background-color: #000000;
+    --surface-color: #08050d;
+    --surface-raised: #140a24;
+    --footer-bg: #030106;
+    --text-color: #f6f2ff;
+    --text-muted: #ab9cc4;
+    --border-color: rgba(167, 139, 250, 0.18);
+    --glass-bg: rgba(8, 5, 13, 0.78);
+    --glass-border: rgba(167, 139, 250, 0.24);
+    --nav-bg: rgba(0, 0, 0, 0.8);
+    --field-bg: rgba(255, 255, 255, 0.04);
+    --violet-soft: rgba(139, 92, 246, 0.18);
+    --violet-strong: rgba(139, 92, 246, 0.5);
+    --glow: 0 0 90px rgba(139, 92, 246, 0.35);
+    --shadow-soft: 0 30px 80px rgba(0, 0, 0, 0.8);
+    --shadow-button: 0 16px 40px rgba(139, 92, 246, 0.35);
+    --font-heading: 'Outfit', sans-serif;
+    --font-body: 'Inter', sans-serif;
+}
